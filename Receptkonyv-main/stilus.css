@@ -1,0 +1,31 @@
+@charset "utf-8";
+main{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+
+}
+ footer, header,article,section,div{
+    border: 1px solid lightgray;
+    padding: 5px;
+
+}
+
+table ,td, th{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    
+}
+section{
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+}
+.hatterszin{
+    background-color:lightskyblue ;
+}
+#bal, #jobb{
+    cursor: grab;
+    border: 1px solid;
+    height: 20px;
+    padding: 5px;
+}
